@@ -1,0 +1,416 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Tugas Mas Ubai" time="7.716" tests="9" failures="0" errors="2">
+   <testsuite name="Tugas Mas Ubai" tests="9" failures="0" errors="2" time="7.716" skipped="0" timestamp="2025-10-25T17:13:47.833Z" hostname="lelabrsianturi - 192.168.1.3" id="Test Suites/Tugas Mas Ubai">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="/Users/lelabrsianturi/git/tugas_api_mas_ubai/Reports/20251026_001342/Tugas Mas Ubai/20251026_001343"/>
+         <property name="logFiles" value="/Users/lelabrsianturi/git/tugas_api_mas_ubai/Reports/20251026_001342/Tugas Mas Ubai/20251026_001343/execution0.log, /Users/lelabrsianturi/git/tugas_api_mas_ubai/Reports/20251026_001342/Tugas Mas Ubai/20251026_001343/console0.log"/>
+         <property name="attachments" value=""/>
+         <property name="userFullName" value="Lela Sianturi"/>
+         <property name="hostName" value="lelabrsianturi - 192.168.1.3"/>
+         <property name="hostAddress" value="192.168.1.3"/>
+         <property name="projectName" value="tugas_api_mas_ubai"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="10.3.1.0"/>
+      </properties>
+      <testcase name="Test Cases/Negative testcase/TCN02-Get all user" time="0.294" classname="Test Cases/Negative testcase/TCN02-Get all user" status="ERROR">
+         <error type="ERROR" message="Test Cases/Negative testcase/TCN02-Get all user FAILED.&#xa;Reason:&#xa;groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.getResponseText() is applicable for argument types: (com.kms.katalon.core.testobject.ResponseObject) values: [401 1 KB]&#xa;	at TCN02-Get all user.run(TCN02-Get all user:25)&#xa;	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xa;	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:406)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:406)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:406)&#xa;	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:145)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:104)&#xa;	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)&#xa;	at TempTestSuite1761412423924.run(TempTestSuite1761412423924.groovy:35)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;"/>
+         <system-out><![CDATA[26-10-2025T00:13:50 - [TEST_CASE][ERROR] - Test Cases/Negative testcase/TCN02-Get all user: Test Cases/Negative testcase/TCN02-Get all user FAILED.
+Reason:
+groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.getResponseText() is applicable for argument types: (com.kms.katalon.core.testobject.ResponseObject) values: [401 1 KB]
+	at TCN02-Get all user.run(TCN02-Get all user:25)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:406)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:406)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:406)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:145)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:104)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1761412423924.run(TempTestSuite1761412423924.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+
+26-10-2025T00:13:51 - [TEST_STEP][PASSED] - requestObject = findTestObject("Repository without environment/Get All User"): null
+
+26-10-2025T00:13:51 - [TEST_STEP][PASSED] - requestObject.setRestUrl("https://reqres.in/api/doesnotexist"): null
+
+26-10-2025T00:13:51 - [TEST_STEP][PASSED] - negativeResponse = sendRequest(requestObject): Send request successfully
+
+26-10-2025T00:13:51 - [MESSAGE][INFO] - HAR: /Users/lelabrsianturi/git/tugas_api_mas_ubai/Reports/20251026_001342/Tugas Mas Ubai/20251026_001343/requests/main/Get-All-User_3.har
+
+26-10-2025T00:13:51 - [MESSAGE][PASSED] - Send request successfully
+
+26-10-2025T00:13:51 - [TEST_STEP][PASSED] - verifyResponseStatusCode(negativeResponse, 401): Verify response status code successfully
+
+26-10-2025T00:13:51 - [MESSAGE][PASSED] - Verify response status code successfully
+
+26-10-2025T00:13:51 - [TEST_STEP][ERROR] - println(getResponseText(negativeResponse)): Test Cases/Negative testcase/TCN02-Get all user FAILED.
+Reason:
+groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.getResponseText() is applicable for argument types: (com.kms.katalon.core.testobject.ResponseObject) values: [401 1 KB]
+	at TCN02-Get all user.run(TCN02-Get all user:25)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:406)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:406)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:406)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:145)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:104)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1761412423924.run(TempTestSuite1761412423924.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+
+26-10-2025T00:13:51 - [MESSAGE][ERROR] - Test Cases/Negative testcase/TCN02-Get all user FAILED.
+Reason:
+groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.getResponseText() is applicable for argument types: (com.kms.katalon.core.testobject.ResponseObject) values: [401 1 KB]
+	at TCN02-Get all user.run(TCN02-Get all user:25)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:406)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:406)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:406)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:145)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:104)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1761412423924.run(TempTestSuite1761412423924.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)]]></system-out>
+         <system-err><![CDATA[26-10-2025T00:13:50 - [TEST_CASE][ERROR] - Test Cases/Negative testcase/TCN02-Get all user: Test Cases/Negative testcase/TCN02-Get all user FAILED.
+Reason:
+groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.getResponseText() is applicable for argument types: (com.kms.katalon.core.testobject.ResponseObject) values: [401 1 KB]
+	at TCN02-Get all user.run(TCN02-Get all user:25)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:406)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:406)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:406)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:145)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:104)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1761412423924.run(TempTestSuite1761412423924.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Negative testcase/TCN03-Get single user" time="0.253" classname="Test Cases/Negative testcase/TCN03-Get single user" status="ERROR">
+         <error type="ERROR" message="Test Cases/Negative testcase/TCN03-Get single user FAILED.&#xa;Reason:&#xa;groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.getResponseText() is applicable for argument types: (com.kms.katalon.core.testobject.ResponseObject) values: [401 1 KB]&#xa;	at TCN03-Get single user.run(TCN03-Get single user:25)&#xa;	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xa;	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:406)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:406)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:406)&#xa;	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:145)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:104)&#xa;	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)&#xa;	at TempTestSuite1761412423924.run(TempTestSuite1761412423924.groovy:35)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;"/>
+         <system-out><![CDATA[26-10-2025T00:13:52 - [TEST_CASE][ERROR] - Test Cases/Negative testcase/TCN03-Get single user: Test Cases/Negative testcase/TCN03-Get single user FAILED.
+Reason:
+groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.getResponseText() is applicable for argument types: (com.kms.katalon.core.testobject.ResponseObject) values: [401 1 KB]
+	at TCN03-Get single user.run(TCN03-Get single user:25)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:406)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:406)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:406)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:145)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:104)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1761412423924.run(TempTestSuite1761412423924.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+
+26-10-2025T00:13:52 - [TEST_STEP][PASSED] - requestObject = findTestObject("Repository without environment/Get single User"): null
+
+26-10-2025T00:13:52 - [TEST_STEP][PASSED] - requestObject.setRestUrl("https://reqres.in/api/doesnotexist"): null
+
+26-10-2025T00:13:52 - [TEST_STEP][PASSED] - negativeResponse = sendRequest(requestObject): Send request successfully
+
+26-10-2025T00:13:52 - [MESSAGE][INFO] - HAR: /Users/lelabrsianturi/git/tugas_api_mas_ubai/Reports/20251026_001342/Tugas Mas Ubai/20251026_001343/requests/main/Get-single-user_7.har
+
+26-10-2025T00:13:52 - [MESSAGE][PASSED] - Send request successfully
+
+26-10-2025T00:13:52 - [TEST_STEP][PASSED] - verifyResponseStatusCode(negativeResponse, 401): Verify response status code successfully
+
+26-10-2025T00:13:52 - [MESSAGE][PASSED] - Verify response status code successfully
+
+26-10-2025T00:13:52 - [TEST_STEP][ERROR] - println(getResponseText(negativeResponse)): Test Cases/Negative testcase/TCN03-Get single user FAILED.
+Reason:
+groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.getResponseText() is applicable for argument types: (com.kms.katalon.core.testobject.ResponseObject) values: [401 1 KB]
+	at TCN03-Get single user.run(TCN03-Get single user:25)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:406)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:406)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:406)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:145)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:104)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1761412423924.run(TempTestSuite1761412423924.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+
+26-10-2025T00:13:52 - [MESSAGE][ERROR] - Test Cases/Negative testcase/TCN03-Get single user FAILED.
+Reason:
+groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.getResponseText() is applicable for argument types: (com.kms.katalon.core.testobject.ResponseObject) values: [401 1 KB]
+	at TCN03-Get single user.run(TCN03-Get single user:25)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:406)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:406)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:406)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:145)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:104)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1761412423924.run(TempTestSuite1761412423924.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)]]></system-out>
+         <system-err><![CDATA[26-10-2025T00:13:52 - [TEST_CASE][ERROR] - Test Cases/Negative testcase/TCN03-Get single user: Test Cases/Negative testcase/TCN03-Get single user FAILED.
+Reason:
+groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.getResponseText() is applicable for argument types: (com.kms.katalon.core.testobject.ResponseObject) values: [401 1 KB]
+	at TCN03-Get single user.run(TCN03-Get single user:25)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:406)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:406)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:406)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:145)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:104)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1761412423924.run(TempTestSuite1761412423924.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Negative testcase/TCN01-Delete user" time="0.276" classname="Test Cases/Negative testcase/TCN01-Delete user" status="PASSED">
+         <system-out><![CDATA[26-10-2025T00:13:52 - [TEST_CASE][PASSED] - Test Cases/Negative testcase/TCN01-Delete user: Test Cases/Negative testcase/TCN01-Delete user
+
+26-10-2025T00:13:52 - [TEST_STEP][PASSED] - requestObject = findTestObject("Repository without environment/Delete user"): null
+
+26-10-2025T00:13:52 - [TEST_STEP][PASSED] - requestObject.setRestUrl("https://reqres.in/api/users/99999"): null
+
+26-10-2025T00:13:52 - [TEST_STEP][PASSED] - response = sendRequest(requestObject): Send request successfully
+
+26-10-2025T00:13:52 - [MESSAGE][INFO] - HAR: /Users/lelabrsianturi/git/tugas_api_mas_ubai/Reports/20251026_001342/Tugas Mas Ubai/20251026_001343/requests/main/Delete-user_8.har
+
+26-10-2025T00:13:52 - [MESSAGE][PASSED] - Send request successfully
+
+26-10-2025T00:13:52 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 401): Verify response status code successfully
+
+26-10-2025T00:13:52 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Positive testcase/Test with CRUD" time="1.352" classname="Test Cases/Positive testcase/Test with CRUD" status="PASSED">
+         <system-out><![CDATA[26-10-2025T00:13:52 - [TEST_CASE][PASSED] - Test Cases/Positive testcase/Test with CRUD: Test Cases/Positive testcase/Test with CRUD
+
+26-10-2025T00:13:52 - [TEST_STEP][PASSED] - deleteResponse = sendRequestAndVerify(findTestObject("Repository without environment/Delete user")): Send request and verify the response successfully
+
+26-10-2025T00:13:53 - [MESSAGE][INFO] - HAR: /Users/lelabrsianturi/git/tugas_api_mas_ubai/Reports/20251026_001342/Tugas Mas Ubai/20251026_001343/requests/main/Delete-user_9.har
+
+26-10-2025T00:13:53 - [TEST_CASE][PASSED] - Start Test Case : Verification: Verification accomplished successfully
+
+26-10-2025T00:13:53 - [TEST_STEP][PASSED] - request = getInstance().getCurrentRequest(): null
+
+26-10-2025T00:13:53 - [TEST_STEP][PASSED] - response = getInstance().getCurrentResponse(): null
+
+26-10-2025T00:13:53 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 204): Verify response status code successfully
+
+26-10-2025T00:13:53 - [MESSAGE][PASSED] - Verify response status code successfully
+
+26-10-2025T00:13:53 - [TEST_STEP][PASSED] - getStatusCode()).isEqualTo(204): null
+
+26-10-2025T00:13:53 - [MESSAGE][PASSED] - Verify response successfully
+
+26-10-2025T00:13:54 - [MESSAGE][PASSED] - All validation steps have been passed
+
+26-10-2025T00:13:54 - [MESSAGE][PASSED] - Send request and verify the response successfully
+
+26-10-2025T00:13:54 - [TEST_STEP][PASSED] - verifyResponseStatusCode(deleteResponse, 204): Verify response status code successfully
+
+26-10-2025T00:13:54 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Positive testcase/TC004-Delete users" time="0.196" classname="Test Cases/Positive testcase/TC004-Delete users" status="PASSED">
+         <system-out><![CDATA[26-10-2025T00:13:54 - [TEST_CASE][PASSED] - Test Cases/Positive testcase/TC004-Delete users: Test Cases/Positive testcase/TC004-Delete users
+
+26-10-2025T00:13:54 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("Repository without environment/Delete user")): Send request successfully
+
+26-10-2025T00:13:54 - [MESSAGE][INFO] - HAR: /Users/lelabrsianturi/git/tugas_api_mas_ubai/Reports/20251026_001342/Tugas Mas Ubai/20251026_001343/requests/main/Delete-user_10.har
+
+26-10-2025T00:13:54 - [MESSAGE][PASSED] - Send request successfully
+
+26-10-2025T00:13:54 - [TEST_STEP][PASSED] - println(response.getResponseText()): null
+
+26-10-2025T00:13:54 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 204): Verify response status code successfully
+
+26-10-2025T00:13:54 - [MESSAGE][PASSED] - Verify response status code successfully
+
+26-10-2025T00:13:54 - [TEST_STEP][PASSED] - println(response.getResponseBodyContent()): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Positive testcase/TC001-Get all users" time="0.591" classname="Test Cases/Positive testcase/TC001-Get all users" status="PASSED">
+         <system-out><![CDATA[26-10-2025T00:13:54 - [TEST_CASE][PASSED] - Test Cases/Positive testcase/TC001-Get all users: Test Cases/Positive testcase/TC001-Get all users
+
+26-10-2025T00:13:54 - [TEST_STEP][PASSED] - response = sendRequestAndVerify(findTestObject("Repository without environment/Get All User")): Send request and verify the response successfully
+
+26-10-2025T00:13:54 - [MESSAGE][INFO] - HAR: /Users/lelabrsianturi/git/tugas_api_mas_ubai/Reports/20251026_001342/Tugas Mas Ubai/20251026_001343/requests/main/Get-All-User_11.har
+
+26-10-2025T00:13:54 - [TEST_CASE][PASSED] - Start Test Case : Verification: Verification accomplished successfully
+
+26-10-2025T00:13:54 - [TEST_STEP][PASSED] - request = getInstance().getCurrentRequest(): null
+
+26-10-2025T00:13:54 - [TEST_STEP][PASSED] - response = getInstance().getCurrentResponse(): null
+
+26-10-2025T00:13:54 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+26-10-2025T00:13:54 - [MESSAGE][PASSED] - Verify response status code successfully
+
+26-10-2025T00:13:54 - [TEST_STEP][PASSED] - getStatusCode()).isEqualTo(200): null
+
+26-10-2025T00:13:54 - [MESSAGE][PASSED] - Verify response successfully
+
+26-10-2025T00:13:54 - [MESSAGE][PASSED] - All validation steps have been passed
+
+26-10-2025T00:13:54 - [MESSAGE][PASSED] - Send request and verify the response successfully
+
+26-10-2025T00:13:54 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+26-10-2025T00:13:54 - [MESSAGE][PASSED] - Verify response status code successfully
+
+26-10-2025T00:13:54 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "[0].id", "544"): Verify element property value successfully
+
+26-10-2025T00:13:54 - [MESSAGE][PASSED] - Verify element property value successfully
+
+26-10-2025T00:13:54 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "[0].first_name", "Manusia"): Verify element property value successfully
+
+26-10-2025T00:13:54 - [MESSAGE][PASSED] - Verify element property value successfully
+
+26-10-2025T00:13:54 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "[0].last_name", "Super"): Verify element property value successfully
+
+26-10-2025T00:13:54 - [MESSAGE][PASSED] - Verify element property value successfully
+
+26-10-2025T00:13:54 - [TEST_STEP][PASSED] - println(response.getResponseBodyContent()): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Positive testcase/TC002-Get single users" time="0.36" classname="Test Cases/Positive testcase/TC002-Get single users" status="PASSED">
+         <system-out><![CDATA[26-10-2025T00:13:54 - [TEST_CASE][PASSED] - Test Cases/Positive testcase/TC002-Get single users: Test Cases/Positive testcase/TC002-Get single users
+
+26-10-2025T00:13:54 - [TEST_STEP][PASSED] - response = sendRequestAndVerify(findTestObject("Repository without environment/Get single user")): Send request and verify the response successfully
+
+26-10-2025T00:13:54 - [MESSAGE][INFO] - HAR: /Users/lelabrsianturi/git/tugas_api_mas_ubai/Reports/20251026_001342/Tugas Mas Ubai/20251026_001343/requests/main/Get-single-user_12.har
+
+26-10-2025T00:13:55 - [TEST_CASE][PASSED] - Start Test Case : Verification: Verification accomplished successfully
+
+26-10-2025T00:13:55 - [TEST_STEP][PASSED] - request = getInstance().getCurrentRequest(): null
+
+26-10-2025T00:13:55 - [TEST_STEP][PASSED] - response = getInstance().getCurrentResponse(): null
+
+26-10-2025T00:13:55 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+26-10-2025T00:13:55 - [MESSAGE][PASSED] - Verify response status code successfully
+
+26-10-2025T00:13:55 - [TEST_STEP][PASSED] - getStatusCode()).isEqualTo(200): null
+
+26-10-2025T00:13:55 - [MESSAGE][PASSED] - Verify response successfully
+
+26-10-2025T00:13:55 - [MESSAGE][PASSED] - All validation steps have been passed
+
+26-10-2025T00:13:55 - [MESSAGE][PASSED] - Send request and verify the response successfully
+
+26-10-2025T00:13:55 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+26-10-2025T00:13:55 - [MESSAGE][PASSED] - Verify response status code successfully
+
+26-10-2025T00:13:55 - [TEST_STEP][PASSED] - println(response.getResponseBodyContent()): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Positive testcase/TC003-Creat user" time="0.2" classname="Test Cases/Positive testcase/TC003-Creat user" status="PASSED">
+         <system-out><![CDATA[26-10-2025T00:13:55 - [TEST_CASE][PASSED] - Test Cases/Positive testcase/TC003-Creat user: Test Cases/Positive testcase/TC003-Creat user
+
+26-10-2025T00:13:55 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("Repository without environment/Creat user")): Send request successfully
+
+26-10-2025T00:13:55 - [MESSAGE][INFO] - HAR: /Users/lelabrsianturi/git/tugas_api_mas_ubai/Reports/20251026_001342/Tugas Mas Ubai/20251026_001343/requests/main/Creat-user_13.har
+
+26-10-2025T00:13:55 - [MESSAGE][PASSED] - Send request successfully
+
+26-10-2025T00:13:55 - [TEST_STEP][PASSED] - println(response.getResponseText()): null
+
+26-10-2025T00:13:55 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 201): Verify response status code successfully
+
+26-10-2025T00:13:55 - [MESSAGE][PASSED] - Verify response status code successfully
+
+26-10-2025T00:13:55 - [TEST_STEP][PASSED] - println(response.getResponseBodyContent()): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Positive testcase/TC005-edit users" time="0.171" classname="Test Cases/Positive testcase/TC005-edit users" status="PASSED">
+         <system-out><![CDATA[26-10-2025T00:13:55 - [TEST_CASE][PASSED] - Test Cases/Positive testcase/TC005-edit users: Test Cases/Positive testcase/TC005-edit users
+
+26-10-2025T00:13:55 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("Update user (1)")): Send request successfully
+
+26-10-2025T00:13:55 - [MESSAGE][INFO] - HAR: /Users/lelabrsianturi/git/tugas_api_mas_ubai/Reports/20251026_001342/Tugas Mas Ubai/20251026_001343/requests/main/Update-user-(1)_14.har
+
+26-10-2025T00:13:55 - [MESSAGE][PASSED] - Send request successfully
+
+26-10-2025T00:13:55 - [TEST_STEP][PASSED] - println(response.getResponseText()): null
+
+26-10-2025T00:13:55 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 204): Verify response status code successfully
+
+26-10-2025T00:13:55 - [MESSAGE][PASSED] - Verify response status code successfully
+
+26-10-2025T00:13:55 - [TEST_STEP][PASSED] - println(response.getResponseBodyContent()): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[26-10-2025T00:13:47 - [TEST_SUITE][ERROR] - Tugas Mas Ubai: null]]></system-out>
+      <system-err><![CDATA[26-10-2025T00:13:47 - [TEST_SUITE][ERROR] - Tugas Mas Ubai: null]]></system-err>
+   </testsuite>
+</testsuites>

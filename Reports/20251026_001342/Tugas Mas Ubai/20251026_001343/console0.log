@@ -1,0 +1,624 @@
+2025-10-26 00:13:47.743 INFO  c.k.katalon.core.main.TestSuiteExecutor  - START Test Suites/Tugas Mas Ubai
+2025-10-26 00:13:47.854 INFO  c.k.katalon.core.main.TestSuiteExecutor  - userFullName = Lela Sianturi
+2025-10-26 00:13:47.856 INFO  c.k.katalon.core.main.TestSuiteExecutor  - projectName = tugas_api_mas_ubai
+2025-10-26 00:13:47.857 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostName = lelabrsianturi - 192.168.1.3
+2025-10-26 00:13:47.858 INFO  c.k.katalon.core.main.TestSuiteExecutor  - os = Mac OS X 64bit
+2025-10-26 00:13:47.859 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostAddress = 192.168.1.3
+2025-10-26 00:13:47.860 INFO  c.k.katalon.core.main.TestSuiteExecutor  - katalonVersion = 10.3.1.0
+2025-10-26 00:13:48.336 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-10-26 00:13:48.336 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Negative testcase/TCN02-Get all user
+2025-10-26 00:13:48.759 DEBUG testcase.TCN02-Get all user              - 1: requestObject = findTestObject("Repository without environment/Get All User")
+2025-10-26 00:13:48.808 DEBUG testcase.TCN02-Get all user              - 2: requestObject.setRestUrl("https://reqres.in/api/doesnotexist")
+2025-10-26 00:13:48.828 DEBUG testcase.TCN02-Get all user              - 3: negativeResponse = sendRequest(requestObject)
+2025-10-26 00:13:50.206 INFO  c.k.k.core.webservice.common.HarLogger   - HAR: /Users/lelabrsianturi/git/tugas_api_mas_ubai/Reports/20251026_001342/Tugas Mas Ubai/20251026_001343/requests/main/Get-All-User_0.har
+2025-10-26 00:13:50.289 DEBUG testcase.TCN02-Get all user              - 4: verifyResponseStatusCode(negativeResponse, 401)
+2025-10-26 00:13:50.310 DEBUG testcase.TCN02-Get all user              - 5: println(getResponseText(negativeResponse))
+2025-10-26 00:13:50.337 ERROR c.k.katalon.core.main.TestCaseExecutor   - ❌ Test Cases/Negative testcase/TCN02-Get all user FAILED.
+Reason:
+groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.getResponseText() is applicable for argument types: (com.kms.katalon.core.testobject.ResponseObject) values: [401 1 KB]
+	at TCN02-Get all user.run(TCN02-Get all user:25)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:145)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:104)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1761412423924.run(TempTestSuite1761412423924.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+2025-10-26 00:13:50.360 ERROR c.k.katalon.core.main.TestCaseExecutor   - ❌ Test Cases/Negative testcase/TCN02-Get all user FAILED.
+Reason:
+groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.getResponseText() is applicable for argument types: (com.kms.katalon.core.testobject.ResponseObject) values: [401 1 KB]
+	at TCN02-Get all user.run(TCN02-Get all user:25)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:145)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:104)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1761412423924.run(TempTestSuite1761412423924.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+2025-10-26 00:13:50.382 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Negative testcase/TCN02-Get all user
+2025-10-26 00:13:50.388 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-10-26 00:13:50.388 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Negative testcase/TCN02-Get all user
+2025-10-26 00:13:50.403 DEBUG testcase.TCN02-Get all user              - 1: requestObject = findTestObject("Repository without environment/Get All User")
+2025-10-26 00:13:50.408 DEBUG testcase.TCN02-Get all user              - 2: requestObject.setRestUrl("https://reqres.in/api/doesnotexist")
+2025-10-26 00:13:50.410 DEBUG testcase.TCN02-Get all user              - 3: negativeResponse = sendRequest(requestObject)
+2025-10-26 00:13:50.636 INFO  c.k.k.core.webservice.common.HarLogger   - HAR: /Users/lelabrsianturi/git/tugas_api_mas_ubai/Reports/20251026_001342/Tugas Mas Ubai/20251026_001343/requests/main/Get-All-User_1.har
+2025-10-26 00:13:50.641 DEBUG testcase.TCN02-Get all user              - 4: verifyResponseStatusCode(negativeResponse, 401)
+2025-10-26 00:13:50.645 DEBUG testcase.TCN02-Get all user              - 5: println(getResponseText(negativeResponse))
+2025-10-26 00:13:50.651 ERROR c.k.katalon.core.main.TestCaseExecutor   - ❌ Test Cases/Negative testcase/TCN02-Get all user FAILED.
+Reason:
+groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.getResponseText() is applicable for argument types: (com.kms.katalon.core.testobject.ResponseObject) values: [401 1 KB]
+	at TCN02-Get all user.run(TCN02-Get all user:25)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:406)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:145)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:104)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1761412423924.run(TempTestSuite1761412423924.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+2025-10-26 00:13:50.672 ERROR c.k.katalon.core.main.TestCaseExecutor   - ❌ Test Cases/Negative testcase/TCN02-Get all user FAILED.
+Reason:
+groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.getResponseText() is applicable for argument types: (com.kms.katalon.core.testobject.ResponseObject) values: [401 1 KB]
+	at TCN02-Get all user.run(TCN02-Get all user:25)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:406)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:145)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:104)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1761412423924.run(TempTestSuite1761412423924.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+2025-10-26 00:13:50.695 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Negative testcase/TCN02-Get all user
+2025-10-26 00:13:50.699 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-10-26 00:13:50.699 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Negative testcase/TCN02-Get all user
+2025-10-26 00:13:50.715 DEBUG testcase.TCN02-Get all user              - 1: requestObject = findTestObject("Repository without environment/Get All User")
+2025-10-26 00:13:50.720 DEBUG testcase.TCN02-Get all user              - 2: requestObject.setRestUrl("https://reqres.in/api/doesnotexist")
+2025-10-26 00:13:50.722 DEBUG testcase.TCN02-Get all user              - 3: negativeResponse = sendRequest(requestObject)
+2025-10-26 00:13:50.933 INFO  c.k.k.core.webservice.common.HarLogger   - HAR: /Users/lelabrsianturi/git/tugas_api_mas_ubai/Reports/20251026_001342/Tugas Mas Ubai/20251026_001343/requests/main/Get-All-User_2.har
+2025-10-26 00:13:50.937 DEBUG testcase.TCN02-Get all user              - 4: verifyResponseStatusCode(negativeResponse, 401)
+2025-10-26 00:13:50.940 DEBUG testcase.TCN02-Get all user              - 5: println(getResponseText(negativeResponse))
+2025-10-26 00:13:50.945 ERROR c.k.katalon.core.main.TestCaseExecutor   - ❌ Test Cases/Negative testcase/TCN02-Get all user FAILED.
+Reason:
+groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.getResponseText() is applicable for argument types: (com.kms.katalon.core.testobject.ResponseObject) values: [401 1 KB]
+	at TCN02-Get all user.run(TCN02-Get all user:25)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:406)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:406)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:145)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:104)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1761412423924.run(TempTestSuite1761412423924.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+2025-10-26 00:13:50.966 ERROR c.k.katalon.core.main.TestCaseExecutor   - ❌ Test Cases/Negative testcase/TCN02-Get all user FAILED.
+Reason:
+groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.getResponseText() is applicable for argument types: (com.kms.katalon.core.testobject.ResponseObject) values: [401 1 KB]
+	at TCN02-Get all user.run(TCN02-Get all user:25)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:406)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:406)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:145)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:104)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1761412423924.run(TempTestSuite1761412423924.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+2025-10-26 00:13:50.988 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Negative testcase/TCN02-Get all user
+2025-10-26 00:13:50.991 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-10-26 00:13:50.991 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Negative testcase/TCN02-Get all user
+2025-10-26 00:13:51.006 DEBUG testcase.TCN02-Get all user              - 1: requestObject = findTestObject("Repository without environment/Get All User")
+2025-10-26 00:13:51.012 DEBUG testcase.TCN02-Get all user              - 2: requestObject.setRestUrl("https://reqres.in/api/doesnotexist")
+2025-10-26 00:13:51.014 DEBUG testcase.TCN02-Get all user              - 3: negativeResponse = sendRequest(requestObject)
+2025-10-26 00:13:51.229 INFO  c.k.k.core.webservice.common.HarLogger   - HAR: /Users/lelabrsianturi/git/tugas_api_mas_ubai/Reports/20251026_001342/Tugas Mas Ubai/20251026_001343/requests/main/Get-All-User_3.har
+2025-10-26 00:13:51.232 DEBUG testcase.TCN02-Get all user              - 4: verifyResponseStatusCode(negativeResponse, 401)
+2025-10-26 00:13:51.236 DEBUG testcase.TCN02-Get all user              - 5: println(getResponseText(negativeResponse))
+2025-10-26 00:13:51.242 ERROR c.k.katalon.core.main.TestCaseExecutor   - ❌ Test Cases/Negative testcase/TCN02-Get all user FAILED.
+Reason:
+groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.getResponseText() is applicable for argument types: (com.kms.katalon.core.testobject.ResponseObject) values: [401 1 KB]
+	at TCN02-Get all user.run(TCN02-Get all user:25)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:406)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:406)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:406)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:145)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:104)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1761412423924.run(TempTestSuite1761412423924.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+2025-10-26 00:13:51.261 ERROR c.k.katalon.core.main.TestCaseExecutor   - ❌ Test Cases/Negative testcase/TCN02-Get all user FAILED.
+Reason:
+groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.getResponseText() is applicable for argument types: (com.kms.katalon.core.testobject.ResponseObject) values: [401 1 KB]
+	at TCN02-Get all user.run(TCN02-Get all user:25)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:406)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:406)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:406)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:145)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:104)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1761412423924.run(TempTestSuite1761412423924.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+2025-10-26 00:13:51.285 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Negative testcase/TCN02-Get all user
+2025-10-26 00:13:51.290 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-10-26 00:13:51.290 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Negative testcase/TCN03-Get single user
+2025-10-26 00:13:51.345 DEBUG testcase.TCN03-Get single user           - 1: requestObject = findTestObject("Repository without environment/Get single User")
+2025-10-26 00:13:51.355 DEBUG testcase.TCN03-Get single user           - 2: requestObject.setRestUrl("https://reqres.in/api/doesnotexist")
+2025-10-26 00:13:51.359 DEBUG testcase.TCN03-Get single user           - 3: negativeResponse = sendRequest(requestObject)
+2025-10-26 00:13:51.571 INFO  c.k.k.core.webservice.common.HarLogger   - HAR: /Users/lelabrsianturi/git/tugas_api_mas_ubai/Reports/20251026_001342/Tugas Mas Ubai/20251026_001343/requests/main/Get-single-user_4.har
+2025-10-26 00:13:51.575 DEBUG testcase.TCN03-Get single user           - 4: verifyResponseStatusCode(negativeResponse, 401)
+2025-10-26 00:13:51.581 DEBUG testcase.TCN03-Get single user           - 5: println(getResponseText(negativeResponse))
+2025-10-26 00:13:51.586 ERROR c.k.katalon.core.main.TestCaseExecutor   - ❌ Test Cases/Negative testcase/TCN03-Get single user FAILED.
+Reason:
+groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.getResponseText() is applicable for argument types: (com.kms.katalon.core.testobject.ResponseObject) values: [401 1 KB]
+	at TCN03-Get single user.run(TCN03-Get single user:25)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:145)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:104)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1761412423924.run(TempTestSuite1761412423924.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+2025-10-26 00:13:51.592 ERROR c.k.katalon.core.main.TestCaseExecutor   - ❌ Test Cases/Negative testcase/TCN03-Get single user FAILED.
+Reason:
+groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.getResponseText() is applicable for argument types: (com.kms.katalon.core.testobject.ResponseObject) values: [401 1 KB]
+	at TCN03-Get single user.run(TCN03-Get single user:25)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:145)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:104)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1761412423924.run(TempTestSuite1761412423924.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+2025-10-26 00:13:51.601 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Negative testcase/TCN03-Get single user
+2025-10-26 00:13:51.606 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-10-26 00:13:51.607 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Negative testcase/TCN03-Get single user
+2025-10-26 00:13:51.623 DEBUG testcase.TCN03-Get single user           - 1: requestObject = findTestObject("Repository without environment/Get single User")
+2025-10-26 00:13:51.627 DEBUG testcase.TCN03-Get single user           - 2: requestObject.setRestUrl("https://reqres.in/api/doesnotexist")
+2025-10-26 00:13:51.628 DEBUG testcase.TCN03-Get single user           - 3: negativeResponse = sendRequest(requestObject)
+2025-10-26 00:13:51.841 INFO  c.k.k.core.webservice.common.HarLogger   - HAR: /Users/lelabrsianturi/git/tugas_api_mas_ubai/Reports/20251026_001342/Tugas Mas Ubai/20251026_001343/requests/main/Get-single-user_5.har
+2025-10-26 00:13:51.844 DEBUG testcase.TCN03-Get single user           - 4: verifyResponseStatusCode(negativeResponse, 401)
+2025-10-26 00:13:51.847 DEBUG testcase.TCN03-Get single user           - 5: println(getResponseText(negativeResponse))
+2025-10-26 00:13:51.850 ERROR c.k.katalon.core.main.TestCaseExecutor   - ❌ Test Cases/Negative testcase/TCN03-Get single user FAILED.
+Reason:
+groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.getResponseText() is applicable for argument types: (com.kms.katalon.core.testobject.ResponseObject) values: [401 1 KB]
+	at TCN03-Get single user.run(TCN03-Get single user:25)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:406)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:145)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:104)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1761412423924.run(TempTestSuite1761412423924.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+2025-10-26 00:13:51.856 ERROR c.k.katalon.core.main.TestCaseExecutor   - ❌ Test Cases/Negative testcase/TCN03-Get single user FAILED.
+Reason:
+groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.getResponseText() is applicable for argument types: (com.kms.katalon.core.testobject.ResponseObject) values: [401 1 KB]
+	at TCN03-Get single user.run(TCN03-Get single user:25)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:406)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:145)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:104)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1761412423924.run(TempTestSuite1761412423924.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+2025-10-26 00:13:51.862 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Negative testcase/TCN03-Get single user
+2025-10-26 00:13:51.866 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-10-26 00:13:51.866 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Negative testcase/TCN03-Get single user
+2025-10-26 00:13:51.877 DEBUG testcase.TCN03-Get single user           - 1: requestObject = findTestObject("Repository without environment/Get single User")
+2025-10-26 00:13:51.882 DEBUG testcase.TCN03-Get single user           - 2: requestObject.setRestUrl("https://reqres.in/api/doesnotexist")
+2025-10-26 00:13:51.883 DEBUG testcase.TCN03-Get single user           - 3: negativeResponse = sendRequest(requestObject)
+2025-10-26 00:13:52.096 INFO  c.k.k.core.webservice.common.HarLogger   - HAR: /Users/lelabrsianturi/git/tugas_api_mas_ubai/Reports/20251026_001342/Tugas Mas Ubai/20251026_001343/requests/main/Get-single-user_6.har
+2025-10-26 00:13:52.098 DEBUG testcase.TCN03-Get single user           - 4: verifyResponseStatusCode(negativeResponse, 401)
+2025-10-26 00:13:52.102 DEBUG testcase.TCN03-Get single user           - 5: println(getResponseText(negativeResponse))
+2025-10-26 00:13:52.104 ERROR c.k.katalon.core.main.TestCaseExecutor   - ❌ Test Cases/Negative testcase/TCN03-Get single user FAILED.
+Reason:
+groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.getResponseText() is applicable for argument types: (com.kms.katalon.core.testobject.ResponseObject) values: [401 1 KB]
+	at TCN03-Get single user.run(TCN03-Get single user:25)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:406)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:406)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:145)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:104)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1761412423924.run(TempTestSuite1761412423924.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+2025-10-26 00:13:52.111 ERROR c.k.katalon.core.main.TestCaseExecutor   - ❌ Test Cases/Negative testcase/TCN03-Get single user FAILED.
+Reason:
+groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.getResponseText() is applicable for argument types: (com.kms.katalon.core.testobject.ResponseObject) values: [401 1 KB]
+	at TCN03-Get single user.run(TCN03-Get single user:25)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:406)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:406)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:145)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:104)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1761412423924.run(TempTestSuite1761412423924.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+2025-10-26 00:13:52.119 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Negative testcase/TCN03-Get single user
+2025-10-26 00:13:52.122 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-10-26 00:13:52.123 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Negative testcase/TCN03-Get single user
+2025-10-26 00:13:52.135 DEBUG testcase.TCN03-Get single user           - 1: requestObject = findTestObject("Repository without environment/Get single User")
+2025-10-26 00:13:52.139 DEBUG testcase.TCN03-Get single user           - 2: requestObject.setRestUrl("https://reqres.in/api/doesnotexist")
+2025-10-26 00:13:52.140 DEBUG testcase.TCN03-Get single user           - 3: negativeResponse = sendRequest(requestObject)
+2025-10-26 00:13:52.354 INFO  c.k.k.core.webservice.common.HarLogger   - HAR: /Users/lelabrsianturi/git/tugas_api_mas_ubai/Reports/20251026_001342/Tugas Mas Ubai/20251026_001343/requests/main/Get-single-user_7.har
+2025-10-26 00:13:52.357 DEBUG testcase.TCN03-Get single user           - 4: verifyResponseStatusCode(negativeResponse, 401)
+2025-10-26 00:13:52.360 DEBUG testcase.TCN03-Get single user           - 5: println(getResponseText(negativeResponse))
+2025-10-26 00:13:52.364 ERROR c.k.katalon.core.main.TestCaseExecutor   - ❌ Test Cases/Negative testcase/TCN03-Get single user FAILED.
+Reason:
+groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.getResponseText() is applicable for argument types: (com.kms.katalon.core.testobject.ResponseObject) values: [401 1 KB]
+	at TCN03-Get single user.run(TCN03-Get single user:25)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:406)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:406)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:406)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:145)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:104)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1761412423924.run(TempTestSuite1761412423924.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+2025-10-26 00:13:52.370 ERROR c.k.katalon.core.main.TestCaseExecutor   - ❌ Test Cases/Negative testcase/TCN03-Get single user FAILED.
+Reason:
+groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.getResponseText() is applicable for argument types: (com.kms.katalon.core.testobject.ResponseObject) values: [401 1 KB]
+	at TCN03-Get single user.run(TCN03-Get single user:25)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:406)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:406)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:406)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:145)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:104)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1761412423924.run(TempTestSuite1761412423924.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+2025-10-26 00:13:52.376 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Negative testcase/TCN03-Get single user
+2025-10-26 00:13:52.380 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-10-26 00:13:52.380 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Negative testcase/TCN01-Delete user
+2025-10-26 00:13:52.427 DEBUG testcase.TCN01-Delete user               - 1: requestObject = findTestObject("Repository without environment/Delete user")
+2025-10-26 00:13:52.433 DEBUG testcase.TCN01-Delete user               - 2: requestObject.setRestUrl("https://reqres.in/api/users/99999")
+2025-10-26 00:13:52.437 DEBUG testcase.TCN01-Delete user               - 3: response = sendRequest(requestObject)
+2025-10-26 00:13:52.647 INFO  c.k.k.core.webservice.common.HarLogger   - HAR: /Users/lelabrsianturi/git/tugas_api_mas_ubai/Reports/20251026_001342/Tugas Mas Ubai/20251026_001343/requests/main/Delete-user_8.har
+2025-10-26 00:13:52.651 DEBUG testcase.TCN01-Delete user               - 4: verifyResponseStatusCode(response, 401)
+2025-10-26 00:13:52.656 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Negative testcase/TCN01-Delete user
+2025-10-26 00:13:52.660 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-10-26 00:13:52.660 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Positive testcase/Test with CRUD
+2025-10-26 00:13:52.713 DEBUG testcase.Test with CRUD                  - 1: deleteResponse = sendRequestAndVerify(findTestObject("Repository without environment/Delete user"))
+2025-10-26 00:13:53.452 INFO  c.k.k.core.webservice.common.HarLogger   - HAR: /Users/lelabrsianturi/git/tugas_api_mas_ubai/Reports/20251026_001342/Tugas Mas Ubai/20251026_001343/requests/main/Delete-user_9.har
+2025-10-26 00:13:53.525 INFO  c.k.k.core.main.WSVerificationExecutor   - --------------------
+2025-10-26 00:13:53.525 INFO  c.k.k.core.main.WSVerificationExecutor   - START Verification
+2025-10-26 00:13:53.800 DEBUG testcase.Delete user                     - 1: request = getInstance().getCurrentRequest()
+2025-10-26 00:13:53.804 DEBUG testcase.Delete user                     - 2: response = getInstance().getCurrentResponse()
+2025-10-26 00:13:53.806 DEBUG testcase.Delete user                     - 3: verifyResponseStatusCode(response, 204)
+2025-10-26 00:13:53.813 DEBUG testcase.Delete user                     - 4: getStatusCode()).isEqualTo(204)
+2025-10-26 00:13:53.967 INFO  c.k.k.core.main.WSVerificationExecutor   - END Verification
+2025-10-26 00:13:54.007 DEBUG testcase.Test with CRUD                  - 2: verifyResponseStatusCode(deleteResponse, 204)
+2025-10-26 00:13:54.011 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Positive testcase/Test with CRUD
+2025-10-26 00:13:54.016 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-10-26 00:13:54.016 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Positive testcase/TC004-Delete users
+2025-10-26 00:13:54.060 DEBUG testcase.TC004-Delete users              - 1: response = sendRequest(findTestObject("Repository without environment/Delete user"))
+2025-10-26 00:13:54.192 INFO  c.k.k.core.webservice.common.HarLogger   - HAR: /Users/lelabrsianturi/git/tugas_api_mas_ubai/Reports/20251026_001342/Tugas Mas Ubai/20251026_001343/requests/main/Delete-user_10.har
+2025-10-26 00:13:54.195 DEBUG testcase.TC004-Delete users              - 2: println(response.getResponseText())
+2025-10-26 00:13:54.202 DEBUG testcase.TC004-Delete users              - 3: verifyResponseStatusCode(response, 204)
+2025-10-26 00:13:54.208 DEBUG testcase.TC004-Delete users              - 4: println(response.getResponseBodyContent())
+2025-10-26 00:13:54.211 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Positive testcase/TC004-Delete users
+2025-10-26 00:13:54.215 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-10-26 00:13:54.215 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Positive testcase/TC001-Get all users
+2025-10-26 00:13:54.259 DEBUG testcase.TC001-Get all users             - 1: response = sendRequestAndVerify(findTestObject("Repository without environment/Get All User"))
+2025-10-26 00:13:54.389 INFO  c.k.k.core.webservice.common.HarLogger   - HAR: /Users/lelabrsianturi/git/tugas_api_mas_ubai/Reports/20251026_001342/Tugas Mas Ubai/20251026_001343/requests/main/Get-All-User_11.har
+2025-10-26 00:13:54.444 INFO  c.k.k.core.main.WSVerificationExecutor   - --------------------
+2025-10-26 00:13:54.444 INFO  c.k.k.core.main.WSVerificationExecutor   - START Verification
+2025-10-26 00:13:54.556 DEBUG testcase.Get All User                    - 1: request = getInstance().getCurrentRequest()
+2025-10-26 00:13:54.558 DEBUG testcase.Get All User                    - 2: response = getInstance().getCurrentResponse()
+2025-10-26 00:13:54.560 DEBUG testcase.Get All User                    - 3: verifyResponseStatusCode(response, 200)
+2025-10-26 00:13:54.564 DEBUG testcase.Get All User                    - 4: getStatusCode()).isEqualTo(200)
+2025-10-26 00:13:54.567 INFO  c.k.k.core.main.WSVerificationExecutor   - END Verification
+2025-10-26 00:13:54.696 DEBUG testcase.TC001-Get all users             - 2: verifyResponseStatusCode(response, 200)
+2025-10-26 00:13:54.701 DEBUG testcase.TC001-Get all users             - 3: verifyElementPropertyValue(response, "[0].id", "544")
+2025-10-26 00:13:54.759 DEBUG testcase.TC001-Get all users             - 4: verifyElementPropertyValue(response, "[0].first_name", "Manusia")
+2025-10-26 00:13:54.780 DEBUG testcase.TC001-Get all users             - 5: verifyElementPropertyValue(response, "[0].last_name", "Super")
+2025-10-26 00:13:54.802 DEBUG testcase.TC001-Get all users             - 6: println(response.getResponseBodyContent())
+[{"id":544,"created_at":"2025-10-25T14:13:27.570628+00:00","first_name":"Manusia","last_name":"Super","username":"user_544","job_position":"QA Engineer","job_level":"Manager","salary":999999999999,"work_duration":30}, 
+ {"id":77,"created_at":"2025-10-25T14:16:25.925438+00:00","first_name":"Manusia","last_name":"Super","username":"User77","job_position":"QA Engineer","job_level":"Manager","salary":999999999999,"work_duration":30}, 
+ {"id":3,"created_at":"2025-10-20T09:18:36.96992+00:00","first_name":"Charlie","last_name":"Exodus","username":"Charlie_Exo","job_position":"COO","job_level":"C-Level","salary":75000000,"work_duration":2.1}, 
+ {"id":212,"created_at":"2025-10-25T15:23:19.976403+00:00","first_name":"Felia","last_name":"Anjani","username":"feliaan909","job_position":"Software Quality Assurance","job_level":"Junior","salary":9000000,"work_duration":1}, 
+ {"id":84,"created_at":"2025-10-23T16:39:35.528222+00:00","first_name":"Jane","last_name":"Smith","username":"ArumNahidah","job_position":"QA Engineer","job_level":"Mid","salary":8000000,"work_duration":2}, 
+ {"id":187,"created_at":"2025-10-25T14:28:33.70224+00:00","first_name":"Jane","last_name":"Smith","username":"janesmith03","job_position":"QA Engineer","job_level":"Mid","salary":8000000,"work_duration":2}, 
+ {"id":88,"created_at":"2025-10-23T16:46:15.528901+00:00","first_name":"Jane","last_name":"Smith","username":"zafran al jazari","job_position":"QA Engineer","job_level":"Mid","salary":8000000,"work_duration":2}, 
+ {"id":89,"created_at":"2025-10-23T16:48:04.897587+00:00","first_name":"Jane","last_name":"Smith","username":"safira andjani","job_position":"QA Engineer","job_level":"Mid","salary":8000000,"work_duration":2}, 
+ {"id":90,"created_at":"2025-10-23T16:54:43.622559+00:00","first_name":"Jane","last_name":"Smith","username":"ilhamdoang","job_position":"QA Engineer","job_level":"Mid","salary":8000000,"work_duration":2}, 
+ {"id":188,"created_at":"2025-10-25T14:28:42.111225+00:00","first_name":"Rasikha","last_name":"Saputri","username":"rasikha_1761402515424","job_position":"Data Analyst","job_level":"Junior","salary":6000000,"work_duration":1}, 
+ {"id":189,"created_at":"2025-10-25T14:31:37.921532+00:00","first_name":"Rasikha","last_name":"Saputri","username":"rasikha_1761402691307","job_position":"Data Analyst","job_level":"Junior","salary":6000000,"work_duration":1}, 
+ {"id":165,"created_at":"2025-10-25T13:06:56.175497+00:00","first_name":null,"last_name":null,"username":"janesmith02","job_position":"QA Engineer","job_level":"Mid","salary":8000000,"work_duration":2}, 
+ {"id":190,"created_at":"2025-10-25T14:33:56.877017+00:00","first_name":"Ardy+1","last_name":"SW","username":"ardysw","job_position":"QA Engineer1","job_level":"Mid","salary":8000000,"work_duration":2}, 
+ {"id":154,"created_at":"2025-10-25T11:56:57.47211+00:00","first_name":"Fel","last_name":"Smith","username":"felsmith","job_position":"QA Engineer","job_level":"Senior","salary":9000000,"work_duration":2}, 
+ {"id":191,"created_at":"2025-10-25T14:41:14.540576+00:00","first_name":"Felia","last_name":"Anjani","username":"felia.9zb","job_position":"Software Quality Assurance","job_level":"Junior","salary":9000000,"work_duration":1}, 
+ {"id":192,"created_at":"2025-10-25T14:42:07.326317+00:00","first_name":"Felia","last_name":"Anjani","username":"felia.zv3","job_position":"Software Quality Assurance","job_level":"Junior","salary":9000000,"work_duration":1}, 
+ {"id":193,"created_at":"2025-10-25T14:42:22.818443+00:00","first_name":"Felia","last_name":"Anjani","username":"felia.m9s","job_position":"Software Quality Assurance","job_level":"Junior","salary":9000000,"work_duration":1}, 
+ {"id":195,"created_at":"2025-10-25T14:42:24.807668+00:00","first_name":"Felia","last_name":"Anjani","username":"felia.sqt","job_position":"Software Quality Assurance","job_level":"Junior","salary":9000000,"work_duration":1}, 
+ {"id":213,"created_at":"2025-10-25T15:23:55.372711+00:00","first_name":"Felia","last_name":"Anjani","username":"felia.euc","job_position":"Software Quality Assurance","job_level":"Junior","salary":9000000,"work_duration":1}, 
+ {"id":1,"created_at":"2025-10-25T13:15:39.664277+00:00","first_name":"Jane","last_name":"Smith","username":"user_1","job_position":"QA Engineer","job_level":"Mid","salary":8000000,"work_duration":2}, 
+ {"id":196,"created_at":"2025-10-25T14:42:39.421447+00:00","first_name":"Felia","last_name":"Anjani","username":"felia.ta-","job_position":"Software Quality Assurance","job_level":"Junior","salary":9000000,"work_duration":1}, 
+ {"id":349,"created_at":"2025-10-25T13:16:37.058457+00:00","first_name":"Jane","last_name":"Smith","username":"user_349","job_position":"QA Engineer","job_level":"Mid","salary":8000000,"work_duration":2}, 
+ {"id":197,"created_at":"2025-10-25T14:42:40.378207+00:00","first_name":"Rims","last_name":"Lest","username":"rimslest","job_position":"QA Eng","job_level":"Mid","salary":1000000,"work_duration":3}, 
+ {"id":962,"created_at":"2025-10-25T13:23:11.274102+00:00","first_name":"Jane","last_name":"Smith","username":"user_962","job_position":"QA Engineer","job_level":"Mid","salary":8000000,"work_duration":2}, 
+ {"id":198,"created_at":"2025-10-25T14:43:44.306527+00:00","first_name":"Felia","last_name":"Anjani","username":"felia.lyo","job_position":"Software Quality Assurance","job_level":"Junior","salary":9000000,"work_duration":1}, 
+ {"id":166,"created_at":"2025-10-25T13:29:34.83973+00:00","first_name":"Felia","last_name":"Anjani","username":"felia123","job_position":"Software Quality Assurance","job_level":"Junior","salary":9000000,"work_duration":1}, 
+ {"id":168,"created_at":"2025-10-25T13:30:31.448876+00:00","first_name":"Felia","last_name":"Anjani","username":"felia234","job_position":"Software Quality Assurance","job_level":"Junior","salary":9000000,"work_duration":1}, 
+ {"id":103,"created_at":"2025-10-24T01:01:00.526981+00:00","first_name":"Jane","last_name":"Smith","username":"arumzulfanahidah","job_position":"QA Engineer","job_level":"Mid","salary":8000000,"work_duration":2}, 
+ {"id":201,"created_at":"2025-10-25T14:44:54.22316+00:00","first_name":"Felia","last_name":"Anjani","username":"feliaaanj","job_position":"Software Quality Assurance","job_level":"Junior","salary":9000000,"work_duration":1}, 
+ {"id":203,"created_at":"2025-10-25T14:45:40.796484+00:00","first_name":"Felia","last_name":"Anjani","username":"felia.11d","job_position":"Software Quality Assurance","job_level":"Junior","salary":9000000,"work_duration":1}, 
+ {"id":214,"created_at":"2025-10-25T15:24:34.691837+00:00","first_name":"Felia","last_name":"Anjani","username":"felia.6g6","job_position":"Software Quality Assurance","job_level":"Junior","salary":9000000,"work_duration":1}, 
+ {"id":204,"created_at":"2025-10-25T14:46:59.741848+00:00","first_name":"Felia","last_name":"Anjani","username":"felia.rcf","job_position":"Software Quality Assurance","job_level":"Junior","salary":9000000,"work_duration":1}, 
+ {"id":205,"created_at":"2025-10-25T14:47:54.183096+00:00","first_name":"Felia","last_name":"Anjani","username":"felia.ldx","job_position":"Software Quality Assurance","job_level":"Junior","salary":9000000,"work_duration":1}, 
+ {"id":206,"created_at":"2025-10-25T14:48:37.242633+00:00","first_name":"Felia","last_name":"Anjani","username":"felia.ik9","job_position":"Software Quality Assurance","job_level":"Junior","salary":9000000,"work_duration":1}, 
+ {"id":207,"created_at":"2025-10-25T14:52:23.666201+00:00","first_name":"Fachri","last_name":"Alvi","username":"fachri.z1x","job_position":"Software Quality Assurance","job_level":"Junior","salary":5000000,"work_duration":1}, 
+ {"id":155,"created_at":"2025-10-25T12:45:55.740375+00:00","first_name":"Boneka","last_name":"Barbie","username":"Katalon","job_position":null,"job_level":null,"salary":null,"work_duration":null}, 
+ {"id":208,"created_at":"2025-10-25T15:14:10.393079+00:00","first_name":"Fachri","last_name":"Alvi","username":"fachri.ye-","job_position":"Software Quality Assurance","job_level":"Junior","salary":5000000,"work_duration":1}, 
+ {"id":158,"created_at":"2025-10-25T12:48:20.386089+00:00","first_name":"Boneka","last_name":"Barbie","username":"SiCantik","job_position":null,"job_level":null,"salary":null,"work_duration":null}, 
+ {"id":209,"created_at":"2025-10-25T15:15:27.522239+00:00","first_name":"Rasikha","last_name":"Saputri","username":"rasikha_1761405320583","job_position":"QA Engineer","job_level":"Junior","salary":6000000,"work_duration":1}, 
+ {"id":160,"created_at":"2025-10-25T12:49:35.294696+00:00","first_name":"Boneka","last_name":"Barbie","username":"Cantik0023","job_position":null,"job_level":null,"salary":null,"work_duration":null}, 
+ {"id":115,"created_at":"2025-10-24T08:07:25.246835+00:00","first_name":"Fachri","last_name":"Alvi","username":"fachri.zh9","job_position":"Software Quality Assurance","job_level":"Junior","salary":7000000,"work_duration":1}, 
+ {"id":116,"created_at":"2025-10-24T08:12:01.612623+00:00","first_name":"Fachri","last_name":"Alvi","username":"fachri.w74","job_position":"Software Quality Assurance","job_level":"Junior","salary":7000000,"work_duration":1}, 
+ {"id":117,"created_at":"2025-10-24T08:14:49.716286+00:00","first_name":"Fachri","last_name":"Alvi","username":"fachri.a90","job_position":"Software Quality Assurance","job_level":"Junior","salary":7000000,"work_duration":1}, 
+ {"id":786,"created_at":"2025-10-25T15:16:10.675305+00:00","first_name":"Manusia","last_name":"Super","username":"User786","job_position":"QA Engineer","job_level":"Manager","salary":999999999999,"work_duration":30}, 
+ {"id":119,"created_at":"2025-10-24T08:18:22.937854+00:00","first_name":"Fachri","last_name":"Alvi","username":"fachri.h3u","job_position":"Software Quality Assurance","job_level":"Junior","salary":7000000,"work_duration":1}, 
+ {"id":210,"created_at":"2025-10-25T15:16:32.048754+00:00","first_name":"Fachri","last_name":"Alvi","username":"fachri.v5d","job_position":"Software Quality Assurance","job_level":"Junior","salary":5000000,"work_duration":1}, 
+ {"id":211,"created_at":"2025-10-25T15:16:37.387301+00:00","first_name":"Rasikha","last_name":"Saputri","username":"rasikha_1761405391035","job_position":"QA Engineer","job_level":"Junior","salary":6000000,"work_duration":1}, 
+ {"id":215,"created_at":"2025-10-25T15:25:08.913701+00:00","first_name":"Felia","last_name":"Anjani","username":"felia.ly4","job_position":"Software Quality Assurance","job_level":"Junior","salary":9000000,"work_duration":1}, 
+ {"id":171,"created_at":"2025-10-25T13:34:18.552223+00:00","first_name":"Jane","last_name":"Smith","username":"janesmith2662","job_position":"QA Engineer","job_level":"Mid","salary":0,"work_duration":2}, 
+ {"id":216,"created_at":"2025-10-25T15:25:42.697301+00:00","first_name":"Felia","last_name":"Anjani","username":"felia.-zm","job_position":"Software Quality Assurance","job_level":"Junior","salary":9000000,"work_duration":1}, 
+ {"id":217,"created_at":"2025-10-25T15:27:31.93698+00:00","first_name":"Felia","last_name":"Anjani","username":"felia.cii","job_position":"Software Quality Assurance","job_level":"Junior","salary":9000000,"work_duration":1}, 
+ {"id":220,"created_at":"2025-10-25T15:33:26.094589+00:00","first_name":"Jane","last_name":"Smith","username":"janesmith4301","job_position":"QA Engineer","job_level":"Mid","salary":0,"work_duration":2}, 
+ {"id":221,"created_at":"2025-10-25T15:33:44.237282+00:00","first_name":"Jane","last_name":"Smith","username":"janesmith6180","job_position":"QA Engineer","job_level":"Mid","salary":0,"work_duration":2}, 
+ {"id":222,"created_at":"2025-10-25T15:34:06.560471+00:00","first_name":"Felia","last_name":"Anjani","username":"felia.fug","job_position":"Software Quality Assurance","job_level":"Junior","salary":9000000,"work_duration":1}, 
+ {"id":223,"created_at":"2025-10-25T15:34:38.469134+00:00","first_name":"Jane","last_name":"Smith","username":"janesmith1007","job_position":"QA Engineer","job_level":"Mid","salary":0,"work_duration":2}, 
+ {"id":224,"created_at":"2025-10-25T15:34:39.825965+00:00","first_name":"Felia","last_name":"Anjani","username":"felia.1nn","job_position":"Software Quality Assurance","job_level":"Junior","salary":9000000,"work_duration":1}, 
+ {"id":225,"created_at":"2025-10-25T15:35:26.206219+00:00","first_name":"Lela3","last_name":"Sianturi","username":"lelas","job_position":"QA Engineer","job_level":"Mid","salary":20000000,"work_duration":2}, 
+ {"id":175,"created_at":"2025-10-25T13:39:08.270498+00:00","first_name":"Jane","last_name":"Smith","username":"janesmith2663","job_position":"QA Engineer","job_level":"Mid","salary":0,"work_duration":2}, 
+ {"id":176,"created_at":"2025-10-25T13:41:26.094263+00:00","first_name":"Felia","last_name":"Anjani","username":"felia.g7l","job_position":"Software Quality Assurance","job_level":"Junior","salary":9000000,"work_duration":1}, 
+ {"id":178,"created_at":"2025-10-25T13:41:26.954938+00:00","first_name":"Felia","last_name":"Anjani","username":"felia.--4","job_position":"Software Quality Assurance","job_level":"Junior","salary":9000000,"work_duration":1}, 
+ {"id":227,"created_at":"2025-10-25T15:35:46.565832+00:00","first_name":"Jane","last_name":"Smith","username":"janesmith9687","job_position":"QA Engineer","job_level":"Mid","salary":0,"work_duration":2}, 
+ {"id":179,"created_at":"2025-10-25T13:43:02.268903+00:00","first_name":"Felia","last_name":"Anjani","username":"felia.sk0","job_position":"Software Quality Assurance","job_level":"Junior","salary":9000000,"work_duration":1}, 
+ {"id":202,"created_at":"2025-10-25T14:45:11.190347+00:00","first_name":"Rimss","last_name":"Lestt","username":"rimslestt","job_position":"QA Engg","job_level":"Junior","salary":16000000,"work_duration":4}, 
+ {"id":181,"created_at":"2025-10-25T13:43:03.446786+00:00","first_name":"Felia","last_name":"Anjani","username":"felia.a7c","job_position":"Software Quality Assurance","job_level":"Junior","salary":9000000,"work_duration":1}, 
+ {"id":228,"created_at":"2025-10-25T15:35:59.966581+00:00","first_name":"Lela3","last_name":"Sianturi","username":"youuu","job_position":"QA Engineer","job_level":"Mid","salary":20000000,"work_duration":2}, 
+ {"id":34,"created_at":"2025-10-25T13:55:08.991746+00:00","first_name":"Jane","last_name":"Smith","username":"user_34","job_position":"QA Engineer","job_level":"Mid","salary":8000000,"work_duration":2}, 
+ {"id":322,"created_at":"2025-10-25T14:07:05.899969+00:00","first_name":"Manusia","last_name":"Super","username":"user_322","job_position":"QA Engineer","job_level":"Manager","salary":999999999999,"work_duration":30}, 
+ {"id":132,"created_at":"2025-10-25T14:08:30.568841+00:00","first_name":"Manusia","last_name":"Super","username":"user_132","job_position":"QA Engineer","job_level":"Manager","salary":999999999999,"work_duration":30}, 
+ {"id":230,"created_at":"2025-10-25T15:36:16.572742+00:00","first_name":"Fachri","last_name":"Alvi","username":"fachri.oiu","job_position":"Software Quality Assurance","job_level":"Junior","salary":5000000,"work_duration":1}, 
+ {"id":232,"created_at":"2025-10-25T15:37:23.98396+00:00","first_name":"Felia","last_name":"Anjani","username":"felia.6zr","job_position":"Software Quality Assurance","job_level":"Junior","salary":9000000,"work_duration":1}, 
+ {"id":233,"created_at":"2025-10-25T15:37:47.698037+00:00","first_name":"Lela0001","last_name":"Sianturi","username":"youuu11","job_position":"QA Engineer","job_level":"Mid","salary":20000000,"work_duration":2}, 
+ {"id":234,"created_at":"2025-10-25T15:38:02.941456+00:00","first_name":"Felia","last_name":"Anjani","username":"felia.x34","job_position":"Software Quality Assurance","job_level":"Junior","salary":9000000,"work_duration":1}, 
+ {"id":235,"created_at":"2025-10-25T15:38:23.20089+00:00","first_name":"Jane","last_name":"Smith","username":"janesmith5899","job_position":"QA Engineer","job_level":"Mid","salary":0,"work_duration":2}, 
+ {"id":237,"created_at":"2025-10-25T15:39:02.195504+00:00","first_name":"Felia","last_name":"Anjani","username":"felia.i6g","job_position":"Software Quality Assurance","job_level":"Junior","salary":9000000,"work_duration":1}, 
+ {"id":239,"created_at":"2025-10-25T15:41:07.179021+00:00","first_name":"Felia","last_name":"Anjani","username":"felia.hs-","job_position":"Software Quality Assurance","job_level":"Junior","salary":9000000,"work_duration":1}, 
+ {"id":240,"created_at":"2025-10-25T15:47:41.808849+00:00","first_name":"Felia","last_name":"Anjani","username":"felia.u2-","job_position":"Software Quality Assurance","job_level":"Junior","salary":9000000,"work_duration":1}, 
+ {"id":241,"created_at":"2025-10-25T15:49:12.845134+00:00","first_name":"Felia","last_name":"Anjani","username":"felia.e0f","job_position":"Software Quality Assurance","job_level":"Junior","salary":9000000,"work_duration":1}, 
+ {"id":242,"created_at":"2025-10-25T15:51:07.373639+00:00","first_name":"Felia","last_name":"Anjani","username":"felia.fwy","job_position":"Software Quality Assurance","job_level":"Junior","salary":9000000,"work_duration":1}, 
+ {"id":243,"created_at":"2025-10-25T15:51:14.846097+00:00","first_name":"Felia","last_name":"Anjani","username":"felia.63b","job_position":"Software Quality Assurance","job_level":"Junior","salary":9000000,"work_duration":1}, 
+ {"id":244,"created_at":"2025-10-25T15:52:20.331187+00:00","first_name":"Felia","last_name":"Anjani","username":"felia.mhz","job_position":"Software Quality Assurance","job_level":"Junior","salary":9000000,"work_duration":1}, 
+ {"id":246,"created_at":"2025-10-25T15:53:47.77006+00:00","first_name":"Felia","last_name":"Anjani","username":"felia.141","job_position":"Software Quality Assurance","job_level":"Junior","salary":9000000,"work_duration":1}, 
+ {"id":185,"created_at":"2025-10-25T15:56:51.890101+00:00","first_name":"Manusia","last_name":"Super","username":"User185","job_position":"QA Engineer","job_level":"Manager","salary":999999999999,"work_duration":30}, 
+ {"id":247,"created_at":"2025-10-25T15:57:55.401531+00:00","first_name":"Felia","last_name":"Anjani","username":"felia8989","job_position":"Software Quality Assurance","job_level":"Junior","salary":9000000,"work_duration":1}, 
+ {"id":249,"created_at":"2025-10-25T15:58:28.66245+00:00","first_name":"Jane","last_name":"Smith","username":"janesmith2573","job_position":"QA Engineer","job_level":"Mid","salary":0,"work_duration":2}, 
+ {"id":572,"created_at":"2025-10-25T15:58:30.044062+00:00","first_name":"Manusia","last_name":"Super","username":"User572","job_position":"QA Engineer","job_level":"Manager","salary":999999999999,"work_duration":30}, 
+ {"id":250,"created_at":"2025-10-25T15:58:47.493944+00:00","first_name":"Felia","last_name":"Anjani","username":"felia8998","job_position":"Software Quality Assurance","job_level":"Junior","salary":9000000,"work_duration":1}, 
+ {"id":441,"created_at":"2025-10-25T15:59:34.328905+00:00","first_name":"Manusia","last_name":"Super","username":"User441","job_position":"QA Engineer","job_level":"Manager","salary":999999999999,"work_duration":30}, 
+ {"id":850,"created_at":"2025-10-25T16:00:31.132037+00:00","first_name":"Manusia","last_name":"Super","username":"User850","job_position":"QA Engineer","job_level":"Manager","salary":999999999999,"work_duration":30}, 
+ {"id":83,"created_at":"2025-10-25T16:04:34.459097+00:00","first_name":"Manusia","last_name":"Super","username":"User83","job_position":"QA Engineer","job_level":"Manager","salary":999999999999,"work_duration":30}, 
+ {"id":1352,"created_at":"2025-10-25T16:06:33.397669+00:00","first_name":"Manusia","last_name":"Super","username":"User1352","job_position":"QA Engineer","job_level":"Manager","salary":999999999999,"work_duration":30}, 
+ {"id":251,"created_at":"2025-10-25T16:07:36.53101+00:00","first_name":"Felia","last_name":"Anjani","username":"felia.5p0","job_position":"Software Quality Assurance","job_level":"Junior","salary":9000000,"work_duration":1}, 
+ {"id":252,"created_at":"2025-10-25T16:08:06.016802+00:00","first_name":"Felia","last_name":"Anjani","username":"felia.axy","job_position":"Software Quality Assurance","job_level":"Junior","salary":9000000,"work_duration":1}, 
+ {"id":287,"created_at":"2025-10-25T17:04:56.899544+00:00","first_name":"Felia","last_name":"Anjani","username":"felia.enm","job_position":"Software Quality Assurance","job_level":"Junior","salary":9000000,"work_duration":1}, 
+ {"id":253,"created_at":"2025-10-25T16:13:28.549446+00:00","first_name":"Felia","last_name":"Anjani","username":"fel1000","job_position":"Software Quality Assurance","job_level":"Junior","salary":9000000,"work_duration":1}, 
+ {"id":264,"created_at":"2025-10-25T16:39:11.032484+00:00","first_name":"Feliaa Updated","last_name":"Anjani Updated","username":"feliaa000","job_position":"Software Quality Assurance","job_level":"Junior","salary":9000000,"work_duration":1}, 
+ {"id":254,"created_at":"2025-10-25T16:14:26.37711+00:00","first_name":"Fachri","last_name":"Alvi","username":"feliajelek","job_position":"Software Quality Assurance","job_level":"Junior","salary":7000000,"work_duration":1}, 
+ {"id":255,"created_at":"2025-10-25T16:16:29.824938+00:00","first_name":"Felia","last_name":"Anjani","username":"felia3000","job_position":"Software Quality Assurance","job_level":"Junior","salary":9000000,"work_duration":1}, 
+ {"id":265,"created_at":"2025-10-25T16:43:05.92956+00:00","first_name":"Felia","last_name":"Anjani","username":"felia3009","job_position":"Software Quality Assurance","job_level":"Junior","salary":9000000,"work_duration":1}, 
+ {"id":98,"created_at":"2025-10-25T16:22:00.103789+00:00","first_name":"Manusia","last_name":"Super","username":"User98","job_position":"QA Engineer","job_level":"Manager","salary":999999999999,"work_duration":30}, 
+ {"id":257,"created_at":"2025-10-25T16:22:36.547502+00:00","first_name":"Felia","last_name":"Anjani","username":"felia300","job_position":"Software Quality Assurance","job_level":"Junior","salary":9000000,"work_duration":1}, 
+ {"id":267,"created_at":"2025-10-25T16:45:14.708086+00:00","first_name":"Felia","last_name":"Anjani","username":"feliaa009","job_position":"Software Quality Assurance","job_level":"Junior","salary":9000000,"work_duration":1}, 
+ {"id":259,"created_at":"2025-10-25T16:29:40.690725+00:00","first_name":"Fachri","last_name":"Alvi","username":"feliajelekkk","job_position":"Software Quality Assurance","job_level":"Junior","salary":7000000,"work_duration":1}, 
+ {"id":269,"created_at":"2025-10-25T16:46:52.856134+00:00","first_name":"Felia","last_name":"Anjani","username":"felia.9sb","job_position":"Software Quality Assurance","job_level":"Junior","salary":9000000,"work_duration":1}, 
+ {"id":260,"created_at":"2025-10-25T16:31:54.06293+00:00","first_name":"Fachri","last_name":"Alvi","username":"feliajelekkkeeeehhhhhhh","job_position":"Software Quality Assurance","job_level":"Junior","salary":7000000,"work_duration":1}, 
+ {"id":99,"created_at":"2025-10-25T16:35:35.087382+00:00","first_name":"Manusia","last_name":"Super","username":"userQA","job_position":"QA Engineer","job_level":"Senior Manager","salary":9999999999999999,"work_duration":30}, 
+ {"id":262,"created_at":"2025-10-25T16:35:00.18718+00:00","first_name":"Fachri Update","last_name":"Alvi Update","username":"fachri22","job_position":"Software Quality Assurance","job_level":"Junior","salary":7000000,"work_duration":1}, 
+ {"id":1139,"created_at":"2025-10-25T16:38:32.523427+00:00","first_name":"Manusia","last_name":"Super","username":"User1139","job_position":"QA Engineer","job_level":"Manager","salary":999999999999,"work_duration":30}, 
+ {"id":270,"created_at":"2025-10-25T16:47:36.927798+00:00","first_name":"Felia","last_name":"Anjani","username":"felia.fa6","job_position":"Software Quality Assurance","job_level":"Junior","salary":9000000,"work_duration":1}, 
+ {"id":288,"created_at":"2025-10-25T17:05:03.042134+00:00","first_name":"Felia","last_name":"Anjani","username":"felia.lka","job_position":"Software Quality Assurance","job_level":"Junior","salary":9000000,"work_duration":1}, 
+ {"id":274,"created_at":"2025-10-25T16:48:29.014231+00:00","first_name":"Felia","last_name":"Anjani","username":"felia.z2c","job_position":"Software Quality Assurance","job_level":"Junior","salary":9000000,"work_duration":1}, 
+ {"id":275,"created_at":"2025-10-25T16:50:42.016349+00:00","first_name":"Felia","last_name":"Anjani","username":"feliaa0088","job_position":"Software Quality Assurance","job_level":"Junior","salary":9000000,"work_duration":1}, 
+ {"id":276,"created_at":"2025-10-25T17:00:34.489567+00:00","first_name":"Felia Updated","last_name":"Anjani Updated","username":"felia.4no","job_position":"Software Quality Assurance","job_level":"Junior","salary":9000000,"work_duration":1}, 
+ {"id":279,"created_at":"2025-10-25T17:00:37.333027+00:00","first_name":"Felia","last_name":"Anjani","username":"felia.pzl","job_position":"Software Quality Assurance","job_level":"Junior","salary":9000000,"work_duration":1}, 
+ {"id":290,"created_at":"2025-10-25T17:05:07.987397+00:00","first_name":"Felia","last_name":"Anjani","username":"felia.taf","job_position":"Software Quality Assurance","job_level":"Junior","salary":9000000,"work_duration":1}, 
+ {"id":280,"created_at":"2025-10-25T17:00:44.206668+00:00","first_name":"Felia","last_name":"Anjani","username":"felia.byc","job_position":"Software Quality Assurance","job_level":"Junior","salary":9000000,"work_duration":1}, 
+ {"id":282,"created_at":"2025-10-25T17:00:49.048438+00:00","first_name":"Felia","last_name":"Anjani","username":"felia.7-a","job_position":"Software Quality Assurance","job_level":"Junior","salary":9000000,"work_duration":1}, 
+ {"id":284,"created_at":"2025-10-25T17:04:54.836676+00:00","first_name":"Felia","last_name":"Anjani","username":"felia.x49","job_position":"Software Quality Assurance","job_level":"Junior","salary":9000000,"work_duration":1}, 
+ {"id":292,"created_at":"2025-10-25T17:07:36.755247+00:00","first_name":"Felia","last_name":"Anjani","username":"felia.fxy","job_position":"Software Quality Assurance","job_level":"Junior","salary":9000000,"work_duration":1}, 
+ {"id":294,"created_at":"2025-10-25T17:07:41.5977+00:00","first_name":"Felia","last_name":"Anjani","username":"felia.-h9","job_position":"Software Quality Assurance","job_level":"Junior","salary":9000000,"work_duration":1}]
+2025-10-26 00:13:54.806 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Positive testcase/TC001-Get all users
+2025-10-26 00:13:54.810 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-10-26 00:13:54.810 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Positive testcase/TC002-Get single users
+2025-10-26 00:13:54.844 DEBUG testcase.TC002-Get single users          - 1: response = sendRequestAndVerify(findTestObject("Repository without environment/Get single user"))
+2025-10-26 00:13:54.974 INFO  c.k.k.core.webservice.common.HarLogger   - HAR: /Users/lelabrsianturi/git/tugas_api_mas_ubai/Reports/20251026_001342/Tugas Mas Ubai/20251026_001343/requests/main/Get-single-user_12.har
+2025-10-26 00:13:55.028 INFO  c.k.k.core.main.WSVerificationExecutor   - --------------------
+2025-10-26 00:13:55.028 INFO  c.k.k.core.main.WSVerificationExecutor   - START Verification
+2025-10-26 00:13:55.140 DEBUG testcase.Get single user                 - 1: request = getInstance().getCurrentRequest()
+2025-10-26 00:13:55.142 DEBUG testcase.Get single user                 - 2: response = getInstance().getCurrentResponse()
+2025-10-26 00:13:55.145 DEBUG testcase.Get single user                 - 3: verifyResponseStatusCode(response, 200)
+2025-10-26 00:13:55.150 DEBUG testcase.Get single user                 - 4: getStatusCode()).isEqualTo(200)
+2025-10-26 00:13:55.153 INFO  c.k.k.core.main.WSVerificationExecutor   - END Verification
+2025-10-26 00:13:55.162 DEBUG testcase.TC002-Get single users          - 2: verifyResponseStatusCode(response, 200)
+2025-10-26 00:13:55.167 DEBUG testcase.TC002-Get single users          - 3: println(response.getResponseBodyContent())
+[]
+2025-10-26 00:13:55.170 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Positive testcase/TC002-Get single users
+2025-10-26 00:13:55.173 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-10-26 00:13:55.173 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Positive testcase/TC003-Creat user
+2025-10-26 00:13:55.210 DEBUG testcase.TC003-Creat user                - 1: response = sendRequest(findTestObject("Repository without environment/Creat user"))
+2025-10-26 00:13:55.359 INFO  c.k.k.core.webservice.common.HarLogger   - HAR: /Users/lelabrsianturi/git/tugas_api_mas_ubai/Reports/20251026_001342/Tugas Mas Ubai/20251026_001343/requests/main/Creat-user_13.har
+2025-10-26 00:13:55.363 DEBUG testcase.TC003-Creat user                - 2: println(response.getResponseText())
+[{"id":296,"created_at":"2025-10-25T17:13:55.535549+00:00","first_name":"namasaya","last_name":"last","username":"username01","job_position":"QA Engineer","job_level":"Mid","salary":20000000,"work_duration":2}]
+2025-10-26 00:13:55.366 DEBUG testcase.TC003-Creat user                - 3: verifyResponseStatusCode(response, 201)
+2025-10-26 00:13:55.371 DEBUG testcase.TC003-Creat user                - 4: println(response.getResponseBodyContent())
+[{"id":296,"created_at":"2025-10-25T17:13:55.535549+00:00","first_name":"namasaya","last_name":"last","username":"username01","job_position":"QA Engineer","job_level":"Mid","salary":20000000,"work_duration":2}]
+2025-10-26 00:13:55.374 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Positive testcase/TC003-Creat user
+2025-10-26 00:13:55.378 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-10-26 00:13:55.378 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Positive testcase/TC005-edit users
+2025-10-26 00:13:55.419 DEBUG testcase.TC005-edit users                - 1: response = sendRequest(findTestObject("Update user (1)"))
+2025-10-26 00:13:55.537 INFO  c.k.k.core.webservice.common.HarLogger   - HAR: /Users/lelabrsianturi/git/tugas_api_mas_ubai/Reports/20251026_001342/Tugas Mas Ubai/20251026_001343/requests/main/Update-user-(1)_14.har
+2025-10-26 00:13:55.540 DEBUG testcase.TC005-edit users                - 2: println(response.getResponseText())
+2025-10-26 00:13:55.542 DEBUG testcase.TC005-edit users                - 3: verifyResponseStatusCode(response, 204)
+2025-10-26 00:13:55.546 DEBUG testcase.TC005-edit users                - 4: println(response.getResponseBodyContent())
+2025-10-26 00:13:55.549 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Positive testcase/TC005-edit users
+2025-10-26 00:13:55.599 INFO  c.k.katalon.core.main.TestSuiteExecutor  - --------------------
+2025-10-26 00:13:55.599 INFO  c.k.katalon.core.main.TestSuiteExecutor  - END Test Suites/Tugas Mas Ubai
+2025-10-26 00:13:55.600 INFO  c.k.katalon.core.main.TestSuiteExecutor  - ====================

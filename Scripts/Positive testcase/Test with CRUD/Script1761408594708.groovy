@@ -17,3 +17,21 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+//WebUI.acceptAlert()
+//Get all user
+//def responseGet = WS.sendRequestAndVerify(findTestObject('Repository without environment/Get All User'))
+//WS.verifyResponseStatusCode(responseGet, 200)
+
+//get single user
+//def responseSingle = WS.sendRequestAndVerify(findTestObject('Repository without environment/Get single user'))
+//WS.verifyResponseStatusCode(responseSingle, 200)
+
+//Update user
+//def responseUpdate = WS.sendRequestAndVerify(findTestObject('Update user (1)'))
+//WS.verifyResponseStatusCode(responseUpdate, 200)
+
+
+//Delete user
+def deleteResponse = WS.sendRequestAndVerify(findTestObject('Repository without environment/Delete user'))
+WS.verifyResponseStatusCode(deleteResponse, 204)
+

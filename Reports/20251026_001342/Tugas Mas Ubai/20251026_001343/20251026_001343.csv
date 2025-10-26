@@ -1,0 +1,57 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Tugas Mas Ubai,,,,26-10-2025 00:13:47,26-10-2025 00:13:55,7.767s,ERROR
+,,,,,,,
+Test Cases/Negative testcase/TCN02-Get all user,,,,26-10-2025 00:13:50,26-10-2025 00:13:51,0.294s,ERROR
+"requestObject = findTestObject(""Repository without environment/Get All User"")",,,,26-10-2025 00:13:51,26-10-2025 00:13:51,0.007s,PASSED
+"requestObject.setRestUrl(""https://reqres.in/api/doesnotexist"")",,,,26-10-2025 00:13:51,26-10-2025 00:13:51,0.001s,PASSED
+negativeResponse = sendRequest(requestObject),,,,26-10-2025 00:13:51,26-10-2025 00:13:51,0.217s,PASSED
+"verifyResponseStatusCode(negativeResponse, 401)",,,,26-10-2025 00:13:51,26-10-2025 00:13:51,0.004s,PASSED
+println(getResponseText(negativeResponse)),,,,26-10-2025 00:13:51,26-10-2025 00:13:51,0.019s,ERROR
+,,,,,,,
+Test Cases/Negative testcase/TCN03-Get single user,,,,26-10-2025 00:13:52,26-10-2025 00:13:52,0.253s,ERROR
+"requestObject = findTestObject(""Repository without environment/Get single User"")",,,,26-10-2025 00:13:52,26-10-2025 00:13:52,0.004s,PASSED
+"requestObject.setRestUrl(""https://reqres.in/api/doesnotexist"")",,,,26-10-2025 00:13:52,26-10-2025 00:13:52,0.000s,PASSED
+negativeResponse = sendRequest(requestObject),,,,26-10-2025 00:13:52,26-10-2025 00:13:52,0.216s,PASSED
+"verifyResponseStatusCode(negativeResponse, 401)",,,,26-10-2025 00:13:52,26-10-2025 00:13:52,0.003s,PASSED
+println(getResponseText(negativeResponse)),,,,26-10-2025 00:13:52,26-10-2025 00:13:52,0.008s,ERROR
+,,,,,,,
+Test Cases/Negative testcase/TCN01-Delete user,,,,26-10-2025 00:13:52,26-10-2025 00:13:52,0.276s,PASSED
+"requestObject = findTestObject(""Repository without environment/Delete user"")",,,,26-10-2025 00:13:52,26-10-2025 00:13:52,0.006s,PASSED
+"requestObject.setRestUrl(""https://reqres.in/api/users/99999"")",,,,26-10-2025 00:13:52,26-10-2025 00:13:52,0.003s,PASSED
+response = sendRequest(requestObject),,,,26-10-2025 00:13:52,26-10-2025 00:13:52,0.213s,PASSED
+"verifyResponseStatusCode(response, 401)",,,,26-10-2025 00:13:52,26-10-2025 00:13:52,0.003s,PASSED
+,,,,,,,
+Test Cases/Positive testcase/Test with CRUD,,,,26-10-2025 00:13:52,26-10-2025 00:13:54,1.352s,PASSED
+"deleteResponse = sendRequestAndVerify(findTestObject(""Repository without environment/Delete user""))",,,,26-10-2025 00:13:52,26-10-2025 00:13:54,1.294s,PASSED
+"verifyResponseStatusCode(deleteResponse, 204)",,,,26-10-2025 00:13:54,26-10-2025 00:13:54,0.002s,PASSED
+,,,,,,,
+Test Cases/Positive testcase/TC004-Delete users,,,,26-10-2025 00:13:54,26-10-2025 00:13:54,0.196s,PASSED
+"response = sendRequest(findTestObject(""Repository without environment/Delete user""))",,,,26-10-2025 00:13:54,26-10-2025 00:13:54,0.136s,PASSED
+println(response.getResponseText()),,,,26-10-2025 00:13:54,26-10-2025 00:13:54,0.006s,PASSED
+"verifyResponseStatusCode(response, 204)",,,,26-10-2025 00:13:54,26-10-2025 00:13:54,0.005s,PASSED
+println(response.getResponseBodyContent()),,,,26-10-2025 00:13:54,26-10-2025 00:13:54,0.002s,PASSED
+,,,,,,,
+Test Cases/Positive testcase/TC001-Get all users,,,,26-10-2025 00:13:54,26-10-2025 00:13:54,0.591s,PASSED
+"response = sendRequestAndVerify(findTestObject(""Repository without environment/Get All User""))",,,,26-10-2025 00:13:54,26-10-2025 00:13:54,0.437s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,26-10-2025 00:13:54,26-10-2025 00:13:54,0.004s,PASSED
+"verifyElementPropertyValue(response, ""[0].id"", ""544"")",,,,26-10-2025 00:13:54,26-10-2025 00:13:54,0.057s,PASSED
+"verifyElementPropertyValue(response, ""[0].first_name"", ""Manusia"")",,,,26-10-2025 00:13:54,26-10-2025 00:13:54,0.022s,PASSED
+"verifyElementPropertyValue(response, ""[0].last_name"", ""Super"")",,,,26-10-2025 00:13:54,26-10-2025 00:13:54,0.021s,PASSED
+println(response.getResponseBodyContent()),,,,26-10-2025 00:13:54,26-10-2025 00:13:54,0.002s,PASSED
+,,,,,,,
+Test Cases/Positive testcase/TC002-Get single users,,,,26-10-2025 00:13:54,26-10-2025 00:13:55,0.360s,PASSED
+"response = sendRequestAndVerify(findTestObject(""Repository without environment/Get single user""))",,,,26-10-2025 00:13:54,26-10-2025 00:13:55,0.317s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,26-10-2025 00:13:55,26-10-2025 00:13:55,0.005s,PASSED
+println(response.getResponseBodyContent()),,,,26-10-2025 00:13:55,26-10-2025 00:13:55,0.001s,PASSED
+,,,,,,,
+Test Cases/Positive testcase/TC003-Creat user,,,,26-10-2025 00:13:55,26-10-2025 00:13:55,0.200s,PASSED
+"response = sendRequest(findTestObject(""Repository without environment/Creat user""))",,,,26-10-2025 00:13:55,26-10-2025 00:13:55,0.152s,PASSED
+println(response.getResponseText()),,,,26-10-2025 00:13:55,26-10-2025 00:13:55,0.003s,PASSED
+"verifyResponseStatusCode(response, 201)",,,,26-10-2025 00:13:55,26-10-2025 00:13:55,0.006s,PASSED
+println(response.getResponseBodyContent()),,,,26-10-2025 00:13:55,26-10-2025 00:13:55,0.001s,PASSED
+,,,,,,,
+Test Cases/Positive testcase/TC005-edit users,,,,26-10-2025 00:13:55,26-10-2025 00:13:55,0.171s,PASSED
+"response = sendRequest(findTestObject(""Update user (1)""))",,,,26-10-2025 00:13:55,26-10-2025 00:13:55,0.121s,PASSED
+println(response.getResponseText()),,,,26-10-2025 00:13:55,26-10-2025 00:13:55,0.001s,PASSED
+"verifyResponseStatusCode(response, 204)",,,,26-10-2025 00:13:55,26-10-2025 00:13:55,0.004s,PASSED
+println(response.getResponseBodyContent()),,,,26-10-2025 00:13:55,26-10-2025 00:13:55,0.001s,PASSED

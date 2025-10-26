@@ -1,0 +1,9 @@
+{"testCaseName":"Test Cases/Negative testcase/TCN02-Get all user","testCaseId":"Test Cases/Negative testcase/TCN02-Get all user","iterationVariableName":""}
+{"testCaseName":"Test Cases/Negative testcase/TCN03-Get single user","testCaseId":"Test Cases/Negative testcase/TCN03-Get single user","iterationVariableName":""}
+{"testCaseName":"Test Cases/Negative testcase/TCN01-Delete user","testCaseId":"Test Cases/Negative testcase/TCN01-Delete user","iterationVariableName":""}
+{"testCaseName":"Test Cases/Positive testcase/Test with CRUD","testCaseId":"Test Cases/Positive testcase/Test with CRUD","iterationVariableName":""}
+{"testCaseName":"Test Cases/Positive testcase/TC004-Delete users","testCaseId":"Test Cases/Positive testcase/TC004-Delete users","iterationVariableName":""}
+{"testCaseName":"Test Cases/Positive testcase/TC001-Get all users","testCaseId":"Test Cases/Positive testcase/TC001-Get all users","iterationVariableName":""}
+{"testCaseName":"Test Cases/Positive testcase/TC002-Get single users","testCaseId":"Test Cases/Positive testcase/TC002-Get single users","iterationVariableName":""}
+{"testCaseName":"Test Cases/Positive testcase/TC003-Creat user","testCaseId":"Test Cases/Positive testcase/TC003-Creat user","iterationVariableName":""}
+{"testCaseName":"Test Cases/Positive testcase/TC005-edit users","testCaseId":"Test Cases/Positive testcase/TC005-edit users","iterationVariableName":""}
